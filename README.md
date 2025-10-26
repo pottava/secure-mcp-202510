@@ -2,7 +2,7 @@
 
 [MCP の認証仕様 (2025-06-18)](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization) に準拠したサンプル Python（Flask）アプリケーション実装。
 
-"Confused Deputy" 問題を解決するため RFC 8707 の実装（resource パラメータと aud クレームの検証）に焦点を当てています。  
+"Confused Deputy" 問題を解決するため RFC 8707 の実装に焦点を当てています。  
 3 つのコンポーネントで構成されます。
 
 1. auth_server.py: 認証サーバ (Authorization Server)。トークンを発行します。
